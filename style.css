@@ -1,0 +1,24 @@
+.first-pigeon {
+    margin: 0 auto;
+   border-radius: 100%;
+    }
+    body {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    @keyframes rotate {
+        from {
+          transform: rotate(0deg) scale(3);
+        }
+        to {
+          transform: rotate(360deg) scale(3);
+        }
+      }
+      
+      .first-pigeon:hover {
+        animation: rotate 5s infinite linear;
+      }
+.pictures {
+  margin: 0 auto;
+}
